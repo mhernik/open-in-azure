@@ -1,0 +1,6 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="BUNDLED_DOTNET_LOCATION" value="/home/marek/.gradle/caches/9.4.1/transforms/53a20199471e8c443d6af9b82e05c9aa/transformed/JetBrains.Rider-2026.1/lib/ReSharperHost/linux-x64/dotnet/dotnet" />
+    <macro name="JB_DRIVER_LOCATION" value="/home/marek/.gradle/caches/9.4.1/transforms/53a20199471e8c443d6af9b82e05c9aa/transformed/JetBrains.Rider-2026.1/tools/JbMsDriver" />
+  </component>
+</application>

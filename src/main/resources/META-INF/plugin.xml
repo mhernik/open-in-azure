@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>com.github.mhernik.open-in-azure-devops</id>
+    <name>Open in Azure DevOps</name>
+    <vendor email="marek.hernik@gmail.com">Marek Hernik</vendor>
+
+    <description>
+        Adds an "Open in Azure DevOps" action to the editor context menu.
+        Right-click on any file or line of code to open it directly in Azure DevOps
+        in your browser, at the correct branch and line number.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>Git4Idea</depends>
+
+    <actions>
+        <action
+            id="OpenInAzureDevOps.OpenFile"
+            class="com.github.mhernik.openinazure.OpenInAzureDevOpsAction"
+            text="Open in Azure DevOps"
+            description="Open current file at current line in Azure DevOps"
+            icon="/icons/azure_devops.svg">
+
+            <add-to-group group-id="RevealGroup" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+            <add-to-group group-id="EditorTabPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

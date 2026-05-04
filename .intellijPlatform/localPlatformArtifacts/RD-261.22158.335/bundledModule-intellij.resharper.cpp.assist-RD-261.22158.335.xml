@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.resharper.cpp.assist" revision="RD-261.22158.335" />
+  <configurations>
+    <conf name="default" visibility="public" />
+  </configurations>
+  <publications>
+    <artifact name="intellij.resharper.cpp.assist" ext="jar" conf="default" url="lib" />
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.resharper.cpp.lexer" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.resharper.assist" rev="RD-261.22158.335" />
+  </dependencies>
+</ivy-module>

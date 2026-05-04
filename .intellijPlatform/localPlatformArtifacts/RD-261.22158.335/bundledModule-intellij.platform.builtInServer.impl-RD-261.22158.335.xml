@@ -1,0 +1,31 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.platform.builtInServer.impl" revision="RD-261.22158.335" />
+  <configurations>
+    <conf name="default" visibility="public" />
+  </configurations>
+  <publications>
+    <artifact name="intellij.platform.builtInServer.impl" ext="jar" conf="default" url="lib" />
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.libraries.caffeine" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.commons.imaging" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.fastutil" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.gson" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.guava" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.jackson" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.jackson.jr.objects" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.kotlinx.coroutines.core" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.netty.buffer" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.netty.codec.compression" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.netty.codec.http" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.analysis" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.builtInServer" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.core" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.core.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.core.ui" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.diff" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.ide.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.projectModel" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.projectModel.impl" rev="RD-261.22158.335" />
+  </dependencies>
+</ivy-module>

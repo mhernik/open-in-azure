@@ -1,0 +1,18 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.platform.externalProcessAuthHelper" revision="RD-261.22158.335" />
+  <configurations>
+    <conf name="default" visibility="public" />
+  </configurations>
+  <publications>
+    <artifact name="intellij.platform.externalProcessAuthHelper" ext="jar" conf="default" url="lib" />
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.libraries.netty.buffer" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.netty.codec.http" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.builtInServer" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.builtInServer.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.core" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.ide" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.ide.impl" rev="RD-261.22158.335" />
+  </dependencies>
+</ivy-module>

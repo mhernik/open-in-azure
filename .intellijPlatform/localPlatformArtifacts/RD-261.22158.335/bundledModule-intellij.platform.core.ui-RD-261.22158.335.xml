@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.platform.core.ui" revision="RD-261.22158.335" />
+  <configurations>
+    <conf name="default" visibility="public" />
+  </configurations>
+  <publications>
+    <artifact name="intellij.platform.core.ui" ext="jar" conf="default" url="lib" />
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.libraries.hash4j" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.core" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.util.ui" rev="RD-261.22158.335" />
+  </dependencies>
+</ivy-module>

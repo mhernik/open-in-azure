@@ -1,0 +1,21 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.xml.impl" revision="RD-261.22158.335" />
+  <configurations>
+    <conf name="default" visibility="public" />
+  </configurations>
+  <publications>
+    <artifact name="intellij.xml.impl" ext="jar" conf="default" url="lib" />
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.xml.analysis.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.structureView.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.parser" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.psi" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.psi.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.backend" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.libraries.xerces" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.dom" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.ui.common" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.platform.vcs" rev="RD-261.22158.335" />
+  </dependencies>
+</ivy-module>

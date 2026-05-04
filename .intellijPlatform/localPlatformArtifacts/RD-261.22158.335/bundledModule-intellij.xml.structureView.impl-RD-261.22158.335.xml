@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="bundledModule" module="intellij.xml.structureView.impl" revision="RD-261.22158.335" />
+  <configurations>
+    <conf name="default" visibility="public" />
+  </configurations>
+  <publications>
+    <artifact name="intellij.xml.structureView.impl" ext="jar" conf="default" url="lib" />
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.xml.structureView" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.psi.impl" rev="RD-261.22158.335" />
+    <dependency org="bundledModule" name="intellij.xml.parser" rev="RD-261.22158.335" />
+  </dependencies>
+</ivy-module>

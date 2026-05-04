@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:rider-support.jetbrains.com)",
+      "WebFetch(domain:plugins.jetbrains.com)",
+      "Bash(gradle wrapper *)",
+      "Read(//home/marek/.sdkman/candidates/gradle/**)",
+      "Read(//home/marek/.sdkman/bin/**)",
+      "Bash(command -v gradle)"
+    ]
+  }
+}
